@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import FocusInput from './FocusInput';
+// import Calculator from './Calculator';
+// import ColorApp from './ColorPicker';
+// import PixelArt from './PixelArt';
+// import WindwEventToggler from './WindwEventToggler';
+// import StoreScore from './StoreScore';
+// import DogPicture from './DogPicture';
+// import FormHandeling from './form-handeling';
+// import ThemeToggler from './themeToggler';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FocusInput />
+      {/* <Calculator /> */}
+      {/* <PixelArt /> */}
+      {/* <ColorApp /> */}
+      {/* < WindwEventToggler /> */}
+      {/* <StoreScore /> */}
+      {/* <DogPicture /> */}
+      {/* <FormHandeling /> */}
+      {/* <ThemeToggler /> */}
     </div>
   );
 }
